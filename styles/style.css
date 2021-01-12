@@ -1,10 +1,49 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+#topView{
+  background-color:  #1c5380;
+  padding: 0.7in;
+  text-align: center;
+}
+h1 {
+  color: #06365f ;
+}
+div {
+  width: 300px;
+  border-style: solid;
+  padding: 50px;
+  margin: 20px;
+  border-color: rgb(243, 239, 239);
+  border-radius: 25px;
+  
+}
+main {
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+  
+  
+  
+}
+footer {
+  align-self: center;
+  text-align: center;
+  
+}
+button {
+  background: #1c5380;
+  border-color: rgb(39, 85, 122);
+  border-radius: 25px ;
+}
+.badge {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: fit-content;
+  text-align-last: center;
 }
